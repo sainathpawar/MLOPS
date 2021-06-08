@@ -50,4 +50,12 @@ git commit -m "first commit"
 let update REAME.md as it is modified
 ```bash
 git add . && git commit -m "Update the README.md files"
+```
 
+Call Remote git remote directory & push the code
+
+```bash
+git remote add origin https://github.com/sainathpawar/MLOPS.git
+git branch -M main
+git push -u origin main
+```
