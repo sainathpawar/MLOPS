@@ -36,7 +36,18 @@ Add the winequality dataset into dvc, .dvc file is created
 dvc add data_given\winequality.csv
 ```
 
-Add all files into git
+Add all files into git , After that all files turned into Added mode (A)
 ```bash
 git add .
 ```
+
+Commit all the changes & then A mode clear , 
+```bash
+git commit -m "first commit"
+```
+.gitignore file is created automatically for winequality.csv files
+
+let update REAME.md as it is modified
+```bash
+git add . && git commit -m "Update the README.md files"
+
