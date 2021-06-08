@@ -59,3 +59,12 @@ git remote add origin https://github.com/sainathpawar/MLOPS.git
 git branch -M main
 git push -u origin main
 ```
+
+1. Create get_data.py file under src directory to get the data
+2. Create load_data.py file to load the data with required preprocessing & save it under data\raw\winequality.csv
+3. add staged into dvc.yaml file
+
+```bash
+dvc repro
+```
+
