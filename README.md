@@ -64,7 +64,31 @@ git push -u origin main
 2. Create load_data.py file to load the data with required preprocessing & save it under data\raw\winequality.csv
 3. add staged into dvc.yaml file
 
+
+Once program is done do the testing uisng pytest & tox
+tox is providing virtual enviornmet for temporary testing
+
+skipsdist = True is mentioned in tox.ini files becasue setup.py file is not there
+
+
+To run the tox 
 ```bash
-dvc repro
+tox
 ```
 
+To reload the virutal enviornment 
+```bash
+tox -r
+```
+
+To create python dsitribution to run on differnt machine
+build your own package commands
+
+```bash
+python setup.py sdist bdist
+```
+
+setup commands - 
+```bash
+pip install -e .
+```
