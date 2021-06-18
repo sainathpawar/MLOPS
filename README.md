@@ -82,13 +82,18 @@ tox -r
 ```
 
 To create python dsitribution to run on differnt machine
-build your own package commands
-
+you can share the tar file with anyone
 ```bash
 python setup.py sdist bdist
 ```
 
-setup commands - 
+setup commands - This will use to create package for your program for ex. Numpy or Pandas
 ```bash
 pip install -e .
+```
+
+Packages install in your prgram
+
+```bash
+pip freeze
 ```
