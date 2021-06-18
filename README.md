@@ -97,3 +97,19 @@ Packages install in your prgram
 ```bash
 pip freeze
 ```
+
+In a single line you can update the git repository
+```bash
+
+git add . && git commit -m "updated readme" && git push origin main
+```
+
+Install jupyter lab
+```bash
+pip install jupyterlab
+```
+
+Command to open jupyter notebook.
+```bash
+jupyter-lab notebook/
+```
