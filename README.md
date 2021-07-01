@@ -111,5 +111,5 @@ pip install jupyterlab
 
 Command to open jupyter notebook.
 ```bash
-jupyter-lab notebook/
+jupyter-lab
 ```
